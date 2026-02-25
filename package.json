@@ -1,0 +1,28 @@
+{
+  "name": "chef-booking-backend",
+  "version": "1.0.0",
+  "description": "Backend API for chef booking platform",
+  "main": "start.js",
+  "scripts": {
+    "build": "echo 'No build step for Express backend'",
+    "start": "node start.js",
+    "dev": "nodemon start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chef",
+    "booking",
+    "api",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
