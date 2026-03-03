@@ -1,5 +1,5 @@
+import { Calendar, ChefHat, Clock, Mail, MapPin, MessageSquare, Phone, User, Users, Utensils } from 'lucide-react';
 import React, { useState } from 'react';
-import { Calendar, Users, MapPin, Utensils, ChefHat, Clock, Mail, Phone, User, MessageSquare } from 'lucide-react';
 
 const ChefBookingApp = () => {
   const [formData, setFormData] = useState({
@@ -483,7 +483,7 @@ const ChefBookingApp = () => {
 
       {/* Footer */}
       <footer style={styles.footer}>
-        <p style={styles.footerText}>© 2024 Culinary Moments. Creating extraordinary dining experiences.</p>
+        <p style={styles.footerText}>© 2026 Culinary Moments. Creating extraordinary dining experiences.</p>
       </footer>
     </div>
   );
